@@ -47,3 +47,14 @@ and each part only adds some little more infos i guess that will we the basic ec
  - needs pnpm to match up with gradle as ECMAScript Packages are not unified you need rollup to consume them.
 - gradle delivers a highly qualifyed plugin system that is able to run workers and get feedback back runs on GraalVM but the DSL syntax can be read by NodeJS without problems via the ECMAScript ast parser as groovy and kotlin DSL are valid ECMAScript!
 - typescript can check ecmascript it runs on ECMAScript so GraalVM and NodeJS
+
+
+## Roadmap
+- [] - Typescript Server needs to run on GraalJS
+- [] - Rollup needs to run on GraalJs
+- [] - pnpm needs to run on GraalJs
+- [] - nodejs gradle parser based on acorn as kotlin groovy are relativ compatible with ECMAScript
+- [] - Apply Quarkus ES4X Concepts with the node_modules/.bin hack bin never gets cleaned up! in normal situations so we can store class files there which would indicate that we want that dependencies and that works because we use node resolve to do the relativ patching and depend on node_modules but adding a extra es4x_modules would be beneficial
+- [] - finish the tooling for the justjs workers concept just jsworkers are more then highly efficent and they are able to get loadbalanced via haproxy with high scalability messured 20x performance of Cloudflares Worker Implementation as we can use systemd socket activation this leads to the most performant worker framework at present prooved by emtech power benchmarks rank!
+- [] - stealify vm build compile tooling.
+- [] - carlo puppeteer open pwa tooling and running (Installer)
