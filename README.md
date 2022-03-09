@@ -29,6 +29,9 @@ if not get forced to not do so.
 Maybe it is more clever to have something that logs what did got choosen on cli settings it is not so clever to not log it to a file
 when we would implement something like a config file parser for rollup we could maybe get much better results.
 
+## Implement the idea of rollup-config adjustments
+https://github.com/rollup/rollup-init
+
 ## Implement the idea of a rollup loader
 a rollup loader would use the ability of dynamic import to use string based imports we did consider that in the ECMAScript draft already.
 - also waiting for import.meta.resolve(moduleId, baseUrl)
